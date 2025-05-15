@@ -1,0 +1,13 @@
+{
+    "name": "smith/ticketing",
+    "description": "Ügyféltámogatási ticketing rendszer AI integrációval",
+    "type": "project",
+    "require": {
+        "guzzlehttp/guzzle": "^7.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Smith\\Ticketing\\": "src/"
+        }
+    }
+}
